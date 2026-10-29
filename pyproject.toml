@@ -1,7 +1,7 @@
 [project]
 name = "riftroute"
 version = "0.0.1"
-description = "Add your description here"
+description = "Open-source simulator for green leaf tea collection routing at Kenyan tea factories. Litein is the first example."
 readme = "README.md"
 authors = [
     { name = "Teddy Kipchirchir", email = "81567186+Teddy-Gitcode@users.noreply.github.com" }
@@ -13,6 +13,9 @@ dependencies = [
     "osmnx>=2.1.1",
     "scipy>=1.17.1",
 ]
+
+[project.urls]
+Repository = "https://github.com/Teddy-Gitcode/riftroute"
 
 [project.scripts]
 riftroute = "riftroute:main"
