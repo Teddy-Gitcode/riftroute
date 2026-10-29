@@ -13,7 +13,7 @@ def test_nodes_shape():
     assert nodes["metadata"]["coordinate_order"] == "lat, lon"
     assert nodes["depot"]["node_id"] == 0
     ids = [c["node_id"] for c in nodes["buying_centres"]]
-    assert ids == list(range(1, 11))
+    assert ids == list(range(1, len(ids) + 1))
 
 
 def test_pinned_coordinates_in_range():

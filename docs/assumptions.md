@@ -26,6 +26,28 @@ plan on 29 October 2026. None has been measured.
 The scenario has one lorry and one centre. The v0.1 scope is 3 lorries and
 10 centres; add their entries here before adding them to the scenario file.
 
+## Node coordinates not yet pinned
+
+The coordinates in `src/riftroute/data/litein_nodes.json` were supplied on
+29 October 2026. None has been pinned in Google Earth or seen on the ground yet
+(`pinned_on` is null for every node). Distances are great-circle distances from
+the factory, computed to check the data, not routing distances.
+
+| Node | Name | Precision | From factory | Problem to resolve |
+|---|---|---|---|---|
+| 1 | Kapkitony | locality | 11.4 km WNW | Alternate point is 20.3 km away, 12 km from the main one |
+| 2 | Bonjogo | estimated | 2.9 km NW | Guessed point |
+| 3 | Kapkoros | locality | 16.2 km SE | Outside the planned 15 km road download; alternate is 15.1 km |
+| 4 | Kabchebo | estimated | 2.5 km NW | Guessed point; notes say 3–5 km |
+| 5 | Ngororgo | locality | 7.5 km NNW | Chemosot reference is 0.97 km away, not the 2.29 km stated |
+| 6 | Lalagin | exact | 2.1 km NW | Point is the primary school; notes say 3.26 km |
+| 7 | Kelonget | estimated | 2.2 km W | Guessed point |
+| 8 | Titany | estimated | 1.1 km W | Guessed point |
+| 9 | Kimolwet & Mokonjoro | exact | 12.2 km S | Point is the primary school; alternate is 7.6 km NE, the opposite direction |
+| 10 | Kuresiet | exact | 3.9 km SW | Plus code matches; the only point described as the shed itself |
+| 11 | Kiptewit Zone | exact | 4.6 km NW | A zone of several centres, not one stop |
+| 12 | Arorwet | unknown | n/a | Supplied point was the factory's; a group of 5 sub-centres |
+
 Phase 2 adds another assumption: OSMnx edge speeds come from OpenStreetMap tags
 or road-type averages, not from lorries.
 
