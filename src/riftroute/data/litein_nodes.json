@@ -54,23 +54,6 @@
     },
     {
       "node_id": 3,
-      "code": "LT096",
-      "name": "Kapkoros",
-      "type": "buying_centre",
-      "lat": -0.66202,
-      "lon": 35.31215,
-      "precision": "locality",
-      "alternate_coordinates": {
-        "lat": -0.66979,
-        "lon": 35.294,
-        "reference": "Kapkoros Chesoen/Sotik border"
-      },
-      "location_notes": "Regional locality pin",
-      "pinned_on": null,
-      "seen_on_ground": false
-    },
-    {
-      "node_id": 4,
       "code": "LT008",
       "name": "Kabchebo (Kapchebo)",
       "type": "buying_centre",
@@ -83,7 +66,7 @@
       "seen_on_ground": false
     },
     {
-      "node_id": 5,
+      "node_id": 4,
       "code": null,
       "name": "Ngororgo (Ngororga)",
       "type": "buying_centre",
@@ -101,7 +84,7 @@
       "seen_on_ground": false
     },
     {
-      "node_id": 6,
+      "node_id": 5,
       "code": "LT073",
       "name": "Lalagin",
       "type": "buying_centre",
@@ -114,7 +97,7 @@
       "seen_on_ground": false
     },
     {
-      "node_id": 7,
+      "node_id": 6,
       "code": "LT120",
       "name": "Kelonget",
       "type": "buying_centre",
@@ -126,7 +109,7 @@
       "seen_on_ground": false
     },
     {
-      "node_id": 8,
+      "node_id": 7,
       "code": null,
       "name": "Titany",
       "type": "buying_centre",
@@ -138,7 +121,7 @@
       "seen_on_ground": false
     },
     {
-      "node_id": 9,
+      "node_id": 8,
       "code": null,
       "name": "Kimolwet & Mokonjoro",
       "type": "buying_centre",
@@ -156,7 +139,7 @@
       "seen_on_ground": false
     },
     {
-      "node_id": 10,
+      "node_id": 9,
       "code": null,
       "name": "Kuresiet Tea Buying Center",
       "type": "buying_centre",
@@ -169,7 +152,7 @@
       "seen_on_ground": false
     },
     {
-      "node_id": 11,
+      "node_id": 10,
       "code": null,
       "name": "Kiptewit Zone Buying Centres",
       "type": "buying_centre_zone",
@@ -178,25 +161,6 @@
       "precision": "exact",
       "elevation_m": 1904,
       "location_notes": "Cheboin Ward, 2.5 km NE of Cheborge (Kiptewit/Chebaibai GAA hub)",
-      "pinned_on": null,
-      "seen_on_ground": false
-    },
-    {
-      "node_id": 12,
-      "code": null,
-      "name": "Arorwet Tea Buying Centre",
-      "type": "buying_centre_group",
-      "lat": null,
-      "lon": null,
-      "precision": "unknown",
-      "sub_centres": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "location_notes": "Mapped Litein buying centre pin. Supplied coordinates (-0.58250, 35.18970) are 2 m from the factory and were removed; supplied plus code XMPQ+2RW does not match them either.",
       "pinned_on": null,
       "seen_on_ground": false
     }
