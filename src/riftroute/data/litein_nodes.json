@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "catchment": "Litein pilot",
+    "crs": "EPSG:4326",
+    "coordinate_order": "lat, lon"
+  },
+  "depot": {
+    "node_id": 0,
+    "name": null,
+    "lat": null,
+    "lon": null,
+    "pinned_on": null
+  },
+  "buying_centres": [
+    {
+      "node_id": 1,
+      "name": null,
+      "lat": null,
+      "lon": null,
+      "pinned_on": null,
+      "seen_on_ground": false
+    },
+    {
+      "node_id": 2,
+      "name": null,
+      "lat": null,
+      "lon": null,
+      "pinned_on": null,
+      "seen_on_ground": false
+    },
+    {
+      "node_id": 3,
+      "name": null,
+      "lat": null,
+      "lon": null,
+      "pinned_on": null,
+      "seen_on_ground": false
+    },
+    {
+      "node_id": 4,
+      "name": null,
+      "lat": null,
+      "lon": null,
+      "pinned_on": null,
+      "seen_on_ground": false
+    },
+    {
+      "node_id": 5,
+      "name": null,
+      "lat": null,
+      "lon": null,
+      "pinned_on": null,
+      "seen_on_ground": false
+    },
+    {
+      "node_id": 6,
+      "name": null,
+      "lat": null,
+      "lon": null,
+      "pinned_on": null,
+      "seen_on_ground": false
+    },
+    {
+      "node_id": 7,
+      "name": null,
+      "lat": null,
+      "lon": null,
+      "pinned_on": null,
+      "seen_on_ground": false
+    },
+    {
+      "node_id": 8,
+      "name": null,
+      "lat": null,
+      "lon": null,
+      "pinned_on": null,
+      "seen_on_ground": false
+    },
+    {
+      "node_id": 9,
+      "name": null,
+      "lat": null,
+      "lon": null,
+      "pinned_on": null,
+      "seen_on_ground": false
+    },
+    {
+      "node_id": 10,
+      "name": null,
+      "lat": null,
+      "lon": null,
+      "pinned_on": null,
+      "seen_on_ground": false
+    }
+  ]
+}

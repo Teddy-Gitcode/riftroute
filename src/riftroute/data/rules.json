@@ -1,0 +1,20 @@
+{
+  "max_hours_buying_centre_to_factory": {
+    "value": 2.0,
+    "source": "Green Leaf Quality Requirements for the Kenya Tea Industry (Ministry of Agriculture)",
+    "section": "1.2.4(a)",
+    "url": null
+  },
+  "max_vehicle_turnaround_hours": {
+    "value": 3.0,
+    "source": "Green Leaf Quality Requirements for the Kenya Tea Industry (Ministry of Agriculture)",
+    "section": "1.2.5(a)",
+    "url": null
+  },
+  "max_kg_per_bag": {
+    "value": 12,
+    "source": "Green Leaf Quality Requirements for the Kenya Tea Industry (Ministry of Agriculture)",
+    "section": "1.2.4(d)",
+    "url": null
+  }
+}

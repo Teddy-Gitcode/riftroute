@@ -1,0 +1,27 @@
+{
+  "status": "assumption; every value is listed in docs/assumptions.md",
+  "decay_k_per_hour": 0.08,
+  "clerk_setup_min": 5.0,
+  "clerk_weigh_rate_kg_per_min": 28.0,
+  "factory_offload_kg_per_hour": 12000,
+  "fleet": [
+    {
+      "lorry_id": "L1",
+      "capacity_kg": 10000,
+      "speed_tarmac_kmh": 50,
+      "speed_murram_kmh": 22
+    }
+  ],
+  "centres": [
+    {
+      "node_id": 1,
+      "normal_leaf_kg": 650,
+      "peak_leaf_kg": 1450,
+      "mean_pluck_hour": 8.0,
+      "eta_window": [
+        10.5,
+        12.0
+      ]
+    }
+  ]
+}

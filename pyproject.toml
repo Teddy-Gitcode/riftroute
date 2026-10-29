@@ -3,6 +3,7 @@ name = "riftroute"
 version = "0.0.1"
 description = "Open-source simulator for green leaf tea collection routing at Kenyan tea factories. Litein is the first example."
 readme = "README.md"
+license = "Apache-2.0"
 authors = [
     { name = "Teddy Kipchirchir", email = "81567186+Teddy-Gitcode@users.noreply.github.com" }
 ]
