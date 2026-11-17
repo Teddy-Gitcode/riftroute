@@ -19,6 +19,19 @@ permissions:
   contents: read
 
 jobs:
+  # Added by hand, not by maturin: keep this job if the file is regenerated.
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v7
+        with:
+          python-version: "3.11"
+      - name: Lint
+        run: uv run ruff check .
+      - name: Test
+        run: uv run pytest
+
   linux:
     runs-on: ${{ matrix.platform.runner }}
     strategy:
@@ -195,7 +208,7 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     if: ${{ startsWith(github.ref, 'refs/tags/') || github.event_name == 'workflow_dispatch' }}
-    needs: [linux, musllinux, windows, macos, sdist]
+    needs: [test, linux, musllinux, windows, macos, sdist]
     environment: pypi
     permissions:
       # Use to sign the release artifacts
