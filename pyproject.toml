@@ -1,7 +1,7 @@
 [project]
 name = "riftroute"
-version = "0.0.1"
-description = "Open-source simulator for green leaf tea collection routing at Kenyan tea factories. Litein is the first example."
+version = "0.0.2"
+description = "Open-source discrete-time simulator for green leaf tea collection routing at Kenyan tea factories."
 readme = "README.md"
 license = "Apache-2.0"
 authors = [
