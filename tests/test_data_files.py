@@ -9,7 +9,7 @@ def load(name):
 
 
 def test_nodes_shape():
-    nodes = load("litein_nodes.json")
+    nodes = load("catchments/example/nodes.json")
     assert nodes["metadata"]["coordinate_order"] == "lat, lon"
     assert nodes["depot"]["node_id"] == 0
     ids = [c["node_id"] for c in nodes["buying_centres"]]
@@ -17,7 +17,7 @@ def test_nodes_shape():
 
 
 def test_pinned_coordinates_in_range():
-    nodes = load("litein_nodes.json")
+    nodes = load("catchments/example/nodes.json")
     for node in [nodes["depot"], *nodes["buying_centres"]]:
         if node["lat"] is None:
             continue
@@ -35,5 +35,5 @@ def test_rules_have_sources():
 
 
 def test_scenario_loads():
-    scenario = load("scenarios/peak_day.json")
+    scenario = load("catchments/example/scenarios/peak_day.json")
     assert scenario["fleet"] and scenario["centres"]

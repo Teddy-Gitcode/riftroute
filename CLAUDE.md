@@ -1,7 +1,9 @@
 # riftroute
 
 Open-source simulator for green leaf tea collection routing at Kenyan tea factories.
-Litein is the first example catchment.
+The code is catchment-agnostic: each catchment is a data folder under
+`src/riftroute/data/catchments/<name>/` (`nodes.json` + `scenarios/`), and no
+place name appears in code. `rules.json` holds national rules shared by all.
 
 ## Stack
 - Python (uv), Rust core via PyO3 + maturin (src/lib.rs -> riftroute._core)

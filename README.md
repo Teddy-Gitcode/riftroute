@@ -49,8 +49,23 @@ separate files so that any result can state what it rests on.
 | Class | Meaning | Location |
 |---|---|---|
 | Verified | Checked against a cited source | `src/riftroute/data/rules.json` |
-| Observed | Site locations, with the date each was confirmed | `src/riftroute/data/` |
-| Assumed | Placeholder until measured | `src/riftroute/data/scenarios/`, listed in `docs/assumptions.md` |
+| Observed | Site locations, with the date each was confirmed | `src/riftroute/data/catchments/<name>/nodes.json` |
+| Assumed | Placeholder until measured | `src/riftroute/data/catchments/<name>/scenarios/`, listed in `docs/assumptions.md` |
+
+## Catchments
+
+The code contains no site-specific logic. A catchment is a data folder:
+
+```
+src/riftroute/data/
+├── rules.json              national rules, shared by all catchments
+└── catchments/
+    └── example/
+        ├── nodes.json      factory and buying-centre locations
+        └── scenarios/      fleet, leaf volumes and rates for a modelled day
+```
+
+Modelling another factory means adding a folder with the same structure.
 
 ## Limitations
 

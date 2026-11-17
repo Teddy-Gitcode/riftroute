@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "catchment": "Litein pilot",
+    "catchment": "example",
     "region": "Bureti Sub-County, Kericho County, Kenya",
     "crs": "EPSG:4326",
     "coordinate_order": "lat, lon",

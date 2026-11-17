@@ -6,7 +6,7 @@ date and source.
 
 ## Open
 
-Values in `src/riftroute/data/scenarios/peak_day.json`, taken from the project
+Values in `src/riftroute/data/catchments/example/scenarios/peak_day.json`, taken from the project
 plan on 29 October 2026. None has been measured.
 
 | Key | Value | Unit | Why this guess | Replace with |
@@ -28,7 +28,7 @@ The scenario has one lorry and one centre. The v0.1 scope is 3 lorries and
 
 ## Node coordinates not yet pinned
 
-The coordinates in `src/riftroute/data/litein_nodes.json` were supplied on
+The coordinates in `src/riftroute/data/catchments/example/nodes.json` were supplied on
 29 October 2026. None has been pinned in Google Earth or seen on the ground yet
 (`pinned_on` is null for every node). Distances are great-circle distances from
 the factory, computed to check the data, not routing distances.
